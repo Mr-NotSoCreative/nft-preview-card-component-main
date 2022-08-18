@@ -22,14 +22,22 @@ body {
     background-color: var(--main-BG);
     font-family: "Outfit", sans-serif;
     color: var(--Soft-blue);
+    
+
+
+
+     
+    
+
+    
+
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
-    /* max-width: 360px; */
+   
 
 }
 
