@@ -11,11 +11,13 @@
     --line: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: var(--main-BG);
     font-family: "Outfit", sans-serif;
@@ -30,6 +32,7 @@ body {
     /* max-width: 360px; */
 
 }
+
 .card {
     max-width: 360px;
     background-color: var(--card-BG);
@@ -42,14 +45,17 @@ body {
     box-shadow: 0 14px 28px 4px rgba(0, 0, 0, 0.4);
 
 }
+
 .eql-img {
     width: 100%;
     border-radius: 15px;
     /* position: relative; */
 }
+
 .img-container {
     position: relative;
 }
+
 .overlay {
     background-color: var(--Cyan);
     position: absolute;
@@ -67,10 +73,12 @@ body {
     opacity: 0;
 
 }
+
 .overlay:hover {
     opacity: 0.6;
     cursor: pointer;
 }
+
 .title {
     color: var(--White);
     font-size: 24px;
@@ -78,43 +86,66 @@ body {
 
 
 }
-.title:hover, span:hover {
+
+.title:hover,
+span:hover {
     color: var(--Cyan);
     cursor: pointer;
 }
+
 .eql-desc {
     line-height: 30px;
 }
+
 .eth-container {
     display: flex;
     justify-content: space-between;
     margin: 15px 0;
 }
-.eth-price, .eth-time {
+
+.eth-price,
+.eth-time {
     display: flex;
     align-items: center;
 }
-.eth-time-p, .eth-price-p {
+
+.eth-time-p,
+.eth-price-p {
     margin-left: 5px;
 }
+
 .eth-price-p {
     color: var(--Cyan);
 }
+
 hr {
     border: none;
     border-bottom: 2px solid var(--line);
 }
+
 .author-div {
     display: flex;
     align-items: center;
     margin: 15px 0 0 0;
 }
+
 .author-img {
     width: 10%;
     border: 1px solid white;
     border-radius: 100%;
     margin-right: 15px;
 }
+
 span {
     color: var(--White);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--White);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
