@@ -27,11 +27,11 @@ Users should be able to:
 
 #### Desktop
 
-![img.png](./images/Screenshot-desktop.png)
+![img.png](./images/New%20Screenshot-Desktop%202.png)
 
 #### Mobile
 
-![img.png](./images/Screenshot-mobile.png)
+![img.png](./images/New%20Screenshot-Mobile%202.png)
 
 ### Links
 
